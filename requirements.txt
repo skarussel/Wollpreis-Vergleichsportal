@@ -1,7 +1,10 @@
-beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650274792587/work
-certifi @ file:///C:/Windows/TEMP/abs_e9b7158a-aa56-4a5b-87b6-c00d295b01fanefpc8_o/croots/recipe/certifi_1655968940823/work/certifi
+beautifulsoup4==4.11.1
+certifi==2022.6.15
 dnspython==2.2.1
-mongoengine @ file:///D:/bld/mongoengine_1658120190254/work
-pymongo @ file:///D:/bld/pymongo_1658783304788/work
-soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+mongoengine==0.24.2
+pip==22.1.2
+pymongo==4.2.0
+setuptools==63.4.1
+soupsieve==2.3.1
+wheel==0.37.1
 wincertstore==0.2
