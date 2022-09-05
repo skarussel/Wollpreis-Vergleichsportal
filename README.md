@@ -1,6 +1,6 @@
 # Wollservice
 
-Der Wollservice bietet die Grundlage für ein Wolle Vergleichsportal. Das Programm wird über 'scraper.py' gestartet. Produkte können über products.csv angepasst werden. Der Wollservice scraped die Verfügbarkeit, den Preis, die Zusammensetzung und die Nadelstärke der Produkte und speichert sie in einer MongoDB Datenbank, sowie in einer CSV Datei. Die gewünschte Ausgabe (Datei/DB) kann im Block `if __name__=="__main__"` der `scraper.py` durch Auskommentieren der jeweiligen Zeile angepasst werden.
+Der Wollservice bietet die Grundlage für ein Wolle Vergleichsportal. Das Programm wird über 'scraper.py' gestartet. Produkte können über products.csv angepasst werden. Der Wollservice scraped die Verfügbarkeit, den Preis, die Zusammensetzung und die Nadelstärke der Produkte und speichert sie in einer MongoDB Datenbank, sowie in einer CSV Datei. Die gewünschte Ausgabe (Datei/DB) kann im Block `if __name__=="__main__"` der `scraper.py` durch Auskommentieren der jeweiligen Zeile angepasst werden. Die Requirements können über pip installiert werden
 
 # Ideen für Vergleichsportal 
 
