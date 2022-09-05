@@ -12,8 +12,8 @@ Während der Tests habe ich gemerkt, dass es einen Fehler gibt, sobald Produkte 
 
 # Ordnerstruktur
 
-Leider sieht die Ordnerstruktur nicht gelungen aus. Ich wollte die Tests in einem seperaten Verzeichnis lagern. Die Struktur sollte wie folgt aussehen:
-wollservice
+Die Struktur sollte wie folgt aussehen:
+
 ```
 wollservice
 │   README.md
