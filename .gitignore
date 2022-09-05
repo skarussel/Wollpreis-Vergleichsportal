@@ -1,1 +1,4 @@
 scripts/config.py
+products.csv
+scripts/__pycache__/
+__pycache__/
