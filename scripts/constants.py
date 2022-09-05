@@ -1,0 +1,2 @@
+ZUSAMMENSTELLUNG = "Zusammenstellung"
+NAEDELSTAERKE = "Nadelstärke"
