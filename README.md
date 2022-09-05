@@ -14,15 +14,21 @@ Während der Tests habe ich gemerkt, dass es einen Fehler gibt, sobald Produkte 
 
 Leider sieht die Ordnerstruktur nicht gelungen aus. Ich wollte die Tests in einem seperaten Verzeichnis lagern. Die Struktur sollte wie folgt aussehen:
 wollservice
-    scripts
-        db
-        parse
-        scraper
-        ...
-    tests
-        db
-        parse
-        scraper
-        ...
+```
+wollservice
+│   README.md
+│   .gitignore    
+│   ...
+└───scripts
+│   │   db.py
+│   │   parse.py
+│   │   scraper.py
+│   │   ...
+└───tests
+    │   db.py
+    │   parse.py
+    │   scraper.py
+```
+
 
 Leider konnte ich aus `tests/scraper` nicht die Dateien aus scripts/scraper importieren. Ich hätte hier mit dem Path etwas basteln können, aber das wäre nur auf meinem lokalen Computer lauffähig gewesen. Für relative Imports hätte ich mehr Zeit gebraucht. Das Problem ist nervig und ich konnte keine Lösung finden. Ich verweise auf folgenden [Thread](https://stackoverflow.com/questions/4383571/importing-files-from-different-folder)
